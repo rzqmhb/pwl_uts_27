@@ -28,7 +28,7 @@
         <div class="col-md-4">
             <form action="{{ route('nasabah.index') }}" method="GET" role="search">
                 <div class="input-group mb-3">
-                    <input type="text" name="search" class="form-control" placeholder="Cari berdasarkan Nama">
+                    <input type="text" name="search" class="form-control" placeholder="Cari berdasarkan Nama atau No Rekening">
                     <span class="input-group-prepend">
                         <button type="submit" class="btn btn-primary">Cari</button>
                     </span>
